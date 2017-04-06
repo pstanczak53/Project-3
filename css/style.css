@@ -124,12 +124,17 @@ nav ul li a {
 
 h1 {
  	color: #664a64; /* custom color vailet */
- 	margin-left: 0.8rem;
+	
+	width:50%;	
+	
+ 	margin:0 auto;
+	
   	text-align: center;
 }
 
 h3 {
   	color: #664a64; /* custom color vailet */
+	
   	margin-left: 0.8rem;
   	text-align: center;
 }
