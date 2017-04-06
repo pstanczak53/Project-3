@@ -76,17 +76,17 @@ html {
 	background-color: #ffeb99;	
 	width: 700px;	
 	
-	margin: 0 auto;
+	margin: 2% auto;
 	padding:0;
 }
 
  #main {
 	display:block;
-        text-align:center;
+    text-align:center;
 	background-color: #ffeb99;	
 	width: 700px;	 
 	
-	margin: 0 auto;
+	margin: 2% auto;
 	padding:0;
 }
 
@@ -124,7 +124,9 @@ nav ul li a {
 
 h1 {
  	color: #664a64; /* custom color vailet */
- 	margin-left: 0.8rem;
+	
+	margin: 2% auto;
+ 	
   	text-align: center;
 }
 
@@ -142,7 +144,7 @@ h4 {
 
 img {
     	display: block;
-    	margin: 0 auto;
+    	margin: 2% auto;
 }
 
 p{
