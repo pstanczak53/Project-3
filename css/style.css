@@ -119,19 +119,18 @@ nav ul li a {
 }
 
 h1 {
-<<<<<<< HEAD
- 	color: #664a64; /* custom color vailet */	
-	margin: 2% auto; 	
-=======
+
  	color: #664a64; /* custom color vailet */
 	
-	width:50%;	
+	margin: 2% auto;
 	
- 	margin:0 auto;
-	
->>>>>>> origin/master
   	text-align: center;
+	
+	text-shadow: 1px 1px blue;
+	text-transform: uppercase;
+	text-decoration-style: wavy;
 }
+
 
 h3 {
   	color: #664a64; /* custom color vailet */
