@@ -7,8 +7,8 @@
 </head>
 
 
-<body>
-     <div id="page-wrapper">
+<body onload="autoRun()">
+    <div id="page-wrapper">
   
    <header>
      <nav>
@@ -18,28 +18,37 @@
 		  <li><a href="resume.html">Resume</a></li>
 	    </ul>
 	 </nav>
-   </header>
-   
-	<h1>About me </h1>
+   </header>   
+	 <h1>About me </h1>
 	
-	    <section id="main-content">
-		
-		<h3>Hello to my fellow friends and student from IIT</h3>
-           <p>My name is Peter Stanczak and I am a transfer student. After successful graduation with Associate Degree of Information System Security from College of DuPage
-		      I am currently seeking a Bachelor Degree of ITM at IIT. I have many interests, which I have no time to pursue at the moment because of my full commitment and total engagement at IIT. 
-		      Some of these interests include building RC planes and drone racing. Not many people know that drone racing is becoming a new high speed sport among many computer engineering savvy individuals.
-		      Some of these custom built copter-drones exceed speed up to 120 mph! I hope you also find this interesting, please watch the video below.
-		   </p>
-		   </section>
-		   
-				
+	    <section id="main-content">		
+			<h3>Hello to my fellow friends and student from IIT</h3>
+				<p>My name is Peter Stanczak and I am a transfer student. After successful graduation with Associate Degree of Information System Security from College of DuPage
+		           I am currently seeking a Bachelor Degree of ITM at IIT. I have many interests, which I have no time to pursue at the moment because of my full commitment and total engagement at IIT. 
+		           Some of these interests include building RC planes and drone racing. Not many people know that drone racing is becoming a new high speed sport among many computer engineering savvy individuals.
+		           Some of these custom built copter-drones exceed speed up to 120 mph! I hope you also find this interesting, please watch the video below.
+				</p>
+			 
 	            <iframe width="500" height="300" src="https://www.youtube.com/embed/Drt-pr6EC9o" allowfullscreen></iframe>	
-			
-	            <iframe width="500" height="300" src="https://www.youtube.com/embed/k7eVKoR_9KY" allowfullscreen></iframe>
-			
-	            <img src="images/Spitfire.jpg" alt="aeroplane image"/>
-	
-	
+			    <iframe width="500" height="300" src="https://www.youtube.com/embed/k7eVKoR_9KY" allowfullscreen></iframe>
+			    <img src="images/Spitfire.jpg" alt="aeroplane image"/>
+		</section>	
+		
+				<div id="slide-wrapper">
+					<h3> My future vacations spots </h3>
+					  <p>I really enjoy outdoors, in my spare time I try to visit remote destinations.Below slide show will give youidea what I like.</p>
+					  
+					  <img src="slide1.jpg" alt="slide1" id="slideshow"/>				
+							<div id="caption">
+							slide1
+							</div>								
+							
+								<ul>
+									<li><a href="#" onclick="changeImage(-1); return false;">Previous Slide</a></li>		  
+									<li><a href="#" onclick="changeImage(-1); return false;">Next Slide</a></li>
+								</ul>		
+								<script src="slideshow.js"></script>				
+				</div>	
 	
 	     <footer>
 	        <p>Created by Peter Stanczak</p>

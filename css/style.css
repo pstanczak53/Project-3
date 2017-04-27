@@ -75,16 +75,50 @@ html {
 	background-color: #ffeb99;	
 	width: 700px;	
 	margin: 2% auto;
+	padding:10px;
+}
+
+#map {	
+	display:block;	
+	background-color: #ffeb99;	
+	width: 600px;	
+	margin: 2% auto;
+	padding:10;
+}
+
+#slide-wrapper {	
+	display:block;	
+	background-color: #ccffcc;	
+	width: 700px;	
+	margin: 2% auto;
+	padding:10px;
+}
+
+#map-wrapper {	
+	display:block;	
+	background-color: #e5e5ff;	
+	width: 700px;	
+	margin: 2% auto;
+	padding:10px;
+}
+
+#caption {	
+	display:block;	
+	
+	text-align:center;
+	
+	margin: 2% auto;
 	padding:0;
 }
 
- #main {
+
+#main {
 	display:block;
     text-align:center;
 	background-color: #ffeb99;	
 	width: 700px;	
 	margin: 2% auto;
-	padding:0;
+	padding:10px;
 }
 
 header{
@@ -92,6 +126,7 @@ header{
 	font-family:sans-serif;
 	height: 60px;
 	clear: both;	
+	padding:20px;
 }
 
 nav ul{	
@@ -101,12 +136,12 @@ nav ul{
 	overflow:hidden;
 }
 
-nav ul li{	
+nav  li{	
 	float: left;
-	margin: 0 20px;
+	margin: 0 0px;
 }
 
-nav ul li a {	
+nav a {	
 	display: block;
 	background-color: #00bfff;
 	color: #000000;
@@ -120,7 +155,7 @@ nav ul li a {
 
 h1 {
 
- 	color: #664a64; /* custom color vailet */
+ 	color: #851aff; /* custom color vailet */
 	
 	margin: 2% auto;
 	
@@ -129,20 +164,25 @@ h1 {
 	text-shadow: 1px 1px blue;
 	text-transform: uppercase;
 	text-decoration-style: wavy;
+	padding:10px;
 }
 
 
 h3 {
-  	color: #664a64; /* custom color vailet */
+  	color: #851aff; /* custom color vailet */
 	
   	margin-left: 0.8rem;
   	text-align: center;
+	
+	margin: 2% auto;
+	padding:10px;
 }
 
 h4 {
-  	color: #664a64; /* custom color vailet */
+  	color: #300066; /* custom color vailet */
   	margin-left: 0.8rem;
   	text-align: center;
+	padding:10px;
 }
 
 img {
@@ -174,4 +214,5 @@ footer
 	font-family:sans-serif;
 	height: 60px;
 	clear: both;	
+	padding:10px;
 }

@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script src="jquery-2.1.4.js"></script>
 	<meta charset="UTF-8">		
-	<title> my resume 1</title>
+	<title> my resume </title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-
+	<style>
+	#map {
+	height:500px;
+	}
+	</style>
+	
+	
+</head>
 
 <body>
 	<div id="page-wrapper">
   
-   <header>
+    <header>
      <nav>
 	    <ul>
 	      <li><a href="index.html">Home page</a></li>
@@ -17,45 +25,62 @@
 		  <li>Resume</li>
 		</ul>
 	 </nav>
-   </header>
+    </header>
    
-   <section id="main-content">
+     <h1>Peter Stanczak resume </h1>
    
-	 <h1>Peter Stanczak resume </h1>
+    <section id="main-content">
 	 
-	 <h3>Education</h3>
-	
+	 <h3>Education</h3>	
       <p>College of DuPage - Glen Ellyn, IL 2013 </p>
-      <p>Associate in Information Systems Security</p>
+      <p>Associate in Information Systems Security</p>	  
 	  
-	  
-	  <h3>Skills:</h3> 
-	  
+	  <h3>Skills:</h3>	  
 	       <ul>
 	          <li>Programing languages: C++, Java, SQL</li>
 		      <li>Professional certifications: A+, CCNA</li>		          
 		      <li>Proficient in Microsoft suit: Word, Access and PowerPoint.</li>
-	      </ul>
+	       </ul>
 	           <img src="images/ccna_certified.jpg" alt="ccna image"/>
 		 	  
 
-  <h3>Work History</h3>
-  <h4>Sales associate in Soccer Post Naperville,IL </h4>
-  <p>Responsibility list:</p>
-  <ul>
-    <li> Costumer service, product presentaions</li>	
-    <li> Help with marketing and product disply </li>
-    </ul>	
+		<h3>Work History</h3>
+			<h4>Sales associate in Soccer Post Naperville,IL </h4>
+				<p>Responsibility list:</p>
+					<ul>
+						<li> Costumer service, product presentaions</li>	
+				        <li> Help with marketing and product disply </li>
+					</ul>	
 	
-  <h4>Sales maketing team member in Servon Group  Schiller Park,IL </h4>
-  <p>Responsibility list: </p>
-   <ul>
-      <li> Sales team coordinator, sales techniques and job performance monitoring</li>	
-      <li> Help with marketing and product disply </li>
-      <li> Analysis of product presentations</li>
-   </ul>
-   
-    </section>
+		<h4>Sales maketing team member in Servon Group  Schiller Park,IL </h4>
+			<p>Responsibility list: </p>
+				<ul>
+					<li> Sales team coordinator, and job performance monitoring</li>	
+					<li> Help with marketing and product disply </li>
+					<li> Analysis of product presentations</li>
+				</ul>
+    </section>	
+    
+	
+	<div id="map-wrapper">
+		<h3>Collage of Dupage Location</h3>
+			<p>Local map below:</p>
+	
+		<div id="map"></div>
+			<script> 
+				var map;
+				function initMap() {
+				map = new google.maps.Map(document.getElementById('map'), {
+				center: {lat: 41.8416178, lng: -88.0718672},
+				zoom: 17
+				});
+				}
+			</script> 
+	
+					<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsYxVIlYscgWEh5QRbrPY0cLM4hOJBULQ&callback=initMap"
+					async defer></script>
+	</div>
+	
    	  <footer>
 	        <p>Created by Peter Stanczak</p>
 			<address>
